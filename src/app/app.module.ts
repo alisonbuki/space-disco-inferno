@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { SpaceDiscoComponent } from './space-disco/space-disco.component';
+import {PlanetsService} from "./planets.service";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { SpaceDiscoComponent } from './space-disco/space-disco.component';
     HttpModule,
     RouterModule
   ],
-  providers: [],
+  providers: [PlanetsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
