@@ -2,16 +2,33 @@
 
 * {
   font-family: 'Arimo', monospace;
+  color: #fff;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.8em;
   text-align: center;
-  margin-top: 20px;
-  color: #007dbc;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
-div {
-  padding: 15px;
+.game {
+  display: inline-block;
+  padding: 20px;
+}
+
+.screenshot {
+  height: 150px;
+  width: 150px;
+  border: 2px dashed #fff;
+  margin-bottom: 10px;
+}
+
+.background {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
 }
