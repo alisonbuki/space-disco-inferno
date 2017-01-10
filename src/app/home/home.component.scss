@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Roboto+Mono:500|VT323');
+
+
+* {
+  font-family: 'Arimo', monospace;
+  color: #fff;
+  overflow: scroll;
+}
+
+h1 {
+  font-size: 2.8em;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  //font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'VT323', monospace;
+  letter-spacing: .5em;
+  text-decoration: underline overline;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game {
+  display: inline-block;
+  padding: 30px;
+}
+
+.screenshot {
+  height: 220px;
+  width: 220px;
+  border: 4px dashed #fff;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 0em 0em 1em #FA1C16, 0em 0em .1em #FA1C16, 0em 0em .8em #FA1C16,
+  0em 0em .8em #FA1C16, 0em 0em .2em #FED128, .2em .2em .1em #806914;
+  color: #FED128;
+}
+
+.background {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.soon {
+  position: relative;
+  top: 99px;
+}
+
+.title {
+  font-family: 'Roboto Mono', monospace;
+}
